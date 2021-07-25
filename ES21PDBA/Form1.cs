@@ -49,7 +49,7 @@ namespace ES21PDBA
             idd = chn.CreateChannel();
             
             IDictionary<string, string> entires = idd.GetServerDatabaseUserInfo();
-            foreach (string entry in entires.Values)
+            foreach (string entry in entries.Values)
             {
                 loop = loop + 1;
                 if (loop == 7)
